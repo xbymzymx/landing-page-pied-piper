@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+section {
+    padding: 0 85px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: justify;
+}
+
+/* Header */
+
+header {
+    background-color: #007765;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    width: 184px;
+    height: 45px;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav a:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+/* Jumbotron */
+
+#jumbotron {
+    background: url(img/image.jpeg) no-repeat center center #000;
+    background-size: cover;
+    color: #fff;
+    top: 100px;
+}
+
+#jumbotron h1 {
+    font-size: 72px;
+    font-weight: 500;
+}
+
+/* Problem */
+
+#problem {
+    background: #eee;
+}
+
+#problem h2 {
+    padding-bottom: 30px; 
+}
+
+/* Hero */
+
+#hero {
+    background: url(img/hero.jpeg) no-repeat center center #000;
+    background-size: cover;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: 500;
+    padding: 130px 0;
+}
+
+/* PPC */
+
+#ppc {
+    background: #fff;
+}
+
+#ppc h2 {
+    padding-bottom: 30px;
+}
+
+#ppc img {
+    float: left;
+    padding-right: 30px;
+}
+
+/* Team */
+
+#team {
+    background: #eee;
+    padding: 50px;
+}
+
+#team h2 {
+    padding-bottom: 30px;
+}
+
+#team ul {
+    list-style-type: none;
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 125px;
+    padding: 30px;
+}
+
+#team figcaption {
+    font-style: normal;
+    color: #007765;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 30%;
+    text-align: center;
+}
